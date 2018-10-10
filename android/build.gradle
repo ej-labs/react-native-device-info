@@ -25,5 +25,5 @@ android {
 
 dependencies {
     implementation "com.facebook.react:react-native:${safeExtGet('reactNativeVersion', '+')}"
-    compile "com.google.android.gms:play-services-gcm:${safeExtGet('googlePlayServicesVersion', '+')}"
+    implementation "com.google.android.gms:play-services-gcm:${safeExtGet('googlePlayServicesVersion', '+')}"
 }
